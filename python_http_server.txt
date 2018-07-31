@@ -1,0 +1,3 @@
+The HTTP server used to connect the curved control interaction running on Framer with the CARLA car simulator running in server mode can be found (with contextual CARLA Python API files) at https://github.com/jestapinski/CARLA_Remote_Client.
+
+The key file (the actual client file) is `use_case_controller.py`. Note this file will work with all versions of CARLA up through 0.8.4.

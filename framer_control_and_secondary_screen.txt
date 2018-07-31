@@ -1,0 +1,8 @@
+All of our Framer interactions (for both the curved control and the secondary screen) can be found at the same GitHub Repository: https://github.com/mill3rtime/harman_capstone_framer_files
+
+Some of the key files to note:
+- Secondary Screen Server POC.framer --> This is the secondary screen code to be run on the iPad, or whatever secondary screen is present.
+- UT SPEED LANEa w stretch.framer --> This is the speed and adjust in lane control to be run off the projector on the surved control.
+- bidirection choice.framer --> This is our binary decision control to also be run off of the projector on the curved control.
+- docs/ --> This is our directory with documentation for our relevant framer files (including our module to connect with CARLA).
+- Secondary Screen Server POC.framer/server.js --> This is the Express server that re-routes car commands to the secondary screen iPad.
