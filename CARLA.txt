@@ -1,0 +1,5 @@
+The CARLA Driving Simulator is a freely available driving simulator for use in Autonomous Vehicle Research. It can be found at http://carla.org/, with version 0.8.4 being the one the CMU MHCI team used for the Capstone project.
+
+For our integration, we simply downloaded the version 0.8.4 compiled Windows file at https://github.com/carla-simulator/carla/releases. There is a version 0.9.0 but it changed much of the Python API, so we did not upgrade to it as it may break our existing implementation.
+
+Thus we simply unzipped the Windows zip, added our Python HTTP server under /PythonClient and then would first run CarlaUE4.exe in Carla Server mode (-carla-server) and without the HUD (-no-hud) before running the Python HTTP server with python use_case_controller.py.
